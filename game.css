@@ -1,0 +1,64 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: forestgreen;
+}
+
+.container{
+    width: 800px;
+    max-width: 90%;
+    background-color: palegreen;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+.btn{
+    background-color: black;
+    border: 1px solid blue;
+    border-radius: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.btn-hover{
+    border-color: black;
+}
+/* minigame css */
+#container {
+    background-color: red;
+    border: 5px solid white;
+    height: 275px;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+p{
+    color: aquamarine;
+    font-size: 24px;
+}
+
+#input{
+    width: 100px;
+    margin: 25px auto;
+}
+
+#btn{
+    margin: 25px  auto auto 5px;
+}
